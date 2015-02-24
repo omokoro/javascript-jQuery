@@ -1,0 +1,36 @@
+body{
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+}
+
+header {
+	text-align: center;
+}
+.nav {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.wrap {
+	margin: 75px auto;
+	width: 480px;
+	border: 1px solid black;
+}
+
+.square {
+	float: left; 
+	border: 1px solid #D8D8D8; 
+	background: #E8E8E8;
+}
+
+.etch {
+	background: #000000;
+}
+
+.clear {
+	background: #FFFFFF;
+}
