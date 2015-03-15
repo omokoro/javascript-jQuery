@@ -1,5 +1,4 @@
 var numBoxes = 16;
-var MAX = 100;
 
 $(document).ready(function() {
 	displayGrid(numBoxes);
@@ -34,13 +33,7 @@ function etch() {
 };
 
 function reset() {
-	var input = prompt("Enter number of squares between 1 and 100");
-	if(input > 0 && input < MAX) {
-		displayGrid(input);
-	}
-	else
-	{
-		reset()
-	}
+	var input = prompt("Enter number of squares");
+	displayGrid(input);
 	$(this).addClass('clear');
 };
